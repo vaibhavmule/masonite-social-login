@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a0765235a39a698006bdab61b34616a6751d426a467ef9077069d3e5ab804115"
+            "sha256": "e746ad390f9c7393a4a1c66ce5b3f955e34beb50e3f0317280ae164be1660153"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -252,6 +252,13 @@
             "index": "pypi",
             "version": "==2.0.20"
         },
+        "masonite-cli": {
+            "hashes": [
+                "sha256:28f8fa5bb855e9db493ed219dd6c66e6c37d4b1de31c47eb3ee3076a424bcb37"
+            ],
+            "index": "pypi",
+            "version": "==2.0.11"
+        },
         "masonite-entry": {
             "hashes": [
                 "sha256:73723e37ebcb69ed26056a0b392baabab1f73696288285e2dc624e92efa3325c"
@@ -479,6 +486,10 @@
                 "sha256:84a0b275c262e34df7506e10767e357e8b5a755a3a620cdc2cfe035061f7806d"
             ],
             "version": "==2.2.0"
+        },
+        "tweepy": {
+            "git": "https://github.com/tweepy/tweepy",
+            "ref": "2efe385fc69385b57733f747ee62e6be12a1338b"
         },
         "tzlocal": {
             "hashes": [

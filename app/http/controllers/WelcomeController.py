@@ -1,8 +1,15 @@
-''' Welcome The User To Masonite '''
+''' A Module Description '''
+
+from app.integrations.IntegrationTwitterDriver import IntegrationTwitterDriver
 
 class WelcomeController:
-    ''' Controller For Welcoming The User '''
+    ''' Class Docstring Description '''
 
-    def show(self, Application):
-        ''' Show Welcome Template '''
-        return view('welcome', {'app': Application})
+    def show(self, Request):
+        ''' Show Home Template '''
+        api = IntegrationTwitterDriver().get_api(Request)
+        if api:
+            user = api.me()
+        else:
+            user = None
+        return view('index', {'user': user})
