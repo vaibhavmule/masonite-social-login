@@ -1,15 +1,13 @@
 ''' A Module Description '''
 
-from app.integrations.IntegrationTwitterDriver import IntegrationTwitterDriver
-
 class WelcomeController:
     ''' Class Docstring Description '''
 
-    def show(self, Request):
+    def show(self, SocialAuth):
         ''' Show Home Template '''
-        api = IntegrationTwitterDriver().get_api(Request)
+        api = SocialAuth.get_api()
         if api:
             user = api.me()
         else:
             user = None
-        return view('index', {'user': user})
+        return view('index', {'user': user,})

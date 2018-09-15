@@ -20,6 +20,8 @@ from masonite.providers import (
 
 from app.providers.MiddlewareProvider import MiddlewareProvider
 from app.providers.UserModelProvider import UserModelProvider
+from app.providers.SocialAuthProvider import SocialAuthProvider
+
 
 '''
 |--------------------------------------------------------------------------
@@ -60,4 +62,5 @@ PROVIDERS = [
     # Application Providers
     UserModelProvider,
     MiddlewareProvider,
+    SocialAuthProvider,
 ]

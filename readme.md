@@ -1,5 +1,6 @@
 ## Masonite Twitter Social Login
 
+![Masonite Twitter Social Login](https://i.imgur.com/lVjnwSN.jpg)
 ## Installation:
 
 ```

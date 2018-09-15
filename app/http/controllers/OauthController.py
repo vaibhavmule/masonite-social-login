@@ -1,15 +1,14 @@
 ''' A Module Description '''
 
-from app.integrations.IntegrationTwitterDriver import IntegrationTwitterDriver
 
 class OauthController:
     ''' Class Docstring Description '''
 
-    def send_to_twitter(self, Request):
-        return IntegrationTwitterDriver().start_auth(Request)
+    def send_to_twitter(self, SocialAuth):
+        return SocialAuth.start_auth()
 
-    def complete(self, Request):
-        return IntegrationTwitterDriver().callback(Request)
+    def complete(self, SocialAuth):
+        return SocialAuth.callback()
 
-    def logout(self, Request):
-        return IntegrationTwitterDriver().logout(Request)
+    def logout(self, SocialAuth):
+        return SocialAuth.logout()
