@@ -5,7 +5,6 @@ ROUTES = [
     Get().route('/', 'WelcomeController@show'),
 
     # Twitter
-    Get().route('/auth', 'OauthController@send_to_twitter'),
-    Get().route('/complete/twitter', 'OauthController@complete'),
-    Get().route('/logout', 'OauthController@logout'),
+    Get().route('/auth/twitter', 'OauthController@auth'),
+    Get().route('/auth/twitter/callback', 'OauthController@callback'),
 ]
