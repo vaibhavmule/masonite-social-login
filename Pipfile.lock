@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0d23933b7ab609743b4c43d3f5aed54a6ff9fdc0ad9392b34c73b22198df62e9"
+            "sha256": "fa42ae405edad1650c4fb68a466b0f122200e1d98e79b515b7662acb6c40f84a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -177,14 +177,6 @@
                 "sha256:d01dfc5c2b3495184f683574e03c70022674ca9a7be88589c5aba130d835ea90"
             ],
             "version": "==2.3"
-        },
-        "defusedxml": {
-            "hashes": [
-                "sha256:24d7f2f94f7f3cb6061acb215685e5125fbcdc40a857eff9de22518820b0a4f4",
-                "sha256:702a91ade2968a82beb0db1e0766a6a273f33d4616a6ce8cde475d8e09853b20"
-            ],
-            "markers": "python_version >= '3.0'",
-            "version": "==0.5.0"
         },
         "faker": {
             "hashes": [
@@ -390,13 +382,6 @@
             ],
             "version": "==2.2.0"
         },
-        "pyjwt": {
-            "hashes": [
-                "sha256:30b1380ff43b55441283cc2b2676b755cca45693ae3097325dea01f3d110628c",
-                "sha256:4ee413b357d53fd3fb44704577afac88e72e878716116270d722723d65b42176"
-            ],
-            "version": "==1.6.4"
-        },
         "pylev": {
             "hashes": [
                 "sha256:063910098161199b81e453025653ec53556c1be7165a9b7c50be2f4d57eae1c3",
@@ -425,14 +410,6 @@
                 "sha256:509736185257111613009974e666568a1b031b028b61b500ef1ab4ee780089d5"
             ],
             "version": "==0.8.2"
-        },
-        "python3-openid": {
-            "hashes": [
-                "sha256:0086da6b6ef3161cfe50fb1ee5cceaf2cda1700019fda03c2c5c440ca6abe4fa",
-                "sha256:628d365d687e12da12d02c6691170f4451db28d6d68d050007e4a40065868502"
-            ],
-            "markers": "python_version >= '3.0'",
-            "version": "==3.1.0"
         },
         "pytz": {
             "hashes": [
@@ -512,15 +489,6 @@
             ],
             "version": "==1.11.0"
         },
-        "social-auth-core": {
-            "hashes": [
-                "sha256:273eb5bbeded3cfc178ca7e14f0641165df03133a2f787a6e412f782489d56ba",
-                "sha256:7b393754ab75f6e5176568554f4f7b5cd9e4cb6dab23d9614e5c9e1425f3fcf9",
-                "sha256:eb0d0e29d0cfa729cd52437314d4aeb83806c4d6e7824cbe988195b6a4b85163"
-            ],
-            "index": "pypi",
-            "version": "==1.7.0"
-        },
         "tabulate": {
             "hashes": [
                 "sha256:e4ca13f26d0a6be2a2915428dc21e732f1e44dad7f76d7030b2ef1ec251cf7f2"
@@ -533,10 +501,6 @@
                 "sha256:84a0b275c262e34df7506e10767e357e8b5a755a3a620cdc2cfe035061f7806d"
             ],
             "version": "==2.2.0"
-        },
-        "tweepy": {
-            "git": "https://github.com/tweepy/tweepy",
-            "ref": "2efe385fc69385b57733f747ee62e6be12a1338b"
         },
         "tzlocal": {
             "hashes": [
