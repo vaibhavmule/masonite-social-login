@@ -7,5 +7,6 @@ class OauthController:
     def auth(self, SocialAuth):
         return SocialAuth.auth()
 
-    def callback(self, SocialAuth):
-        return SocialAuth.callback()
+    def callback(self, Request, SocialAuth):
+        SocialAuth.callback()
+        return Request.redirect('/')
