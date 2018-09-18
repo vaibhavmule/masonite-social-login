@@ -3,11 +3,6 @@
 class WelcomeController:
     ''' Class Docstring Description '''
 
-    def show(self, SocialAuth):
+    def show(self):
         ''' Show Home Template '''
-        api = SocialAuth.get_api()
-        if api:
-            user = api.me()
-        else:
-            user = None
-        return view('index', {'user': user,})
+        return view('index')
