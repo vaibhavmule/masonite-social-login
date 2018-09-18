@@ -27,5 +27,4 @@ class SocialAuthTwitterDriver(BaseDriver):
         self.oauth.resource_owner_key = token['oauth_token']
         self.oauth.resource_owner_secret = token['oauth_token_secret']
 
-        self.oauth.fetch_access_token('https://api.twitter.com/oauth/access_token', verifier=verifier)
-        return self.request.redirect('/')
+        return self.oauth.fetch_access_token('https://api.twitter.com/oauth/access_token', verifier=verifier)
